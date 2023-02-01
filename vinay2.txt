@@ -10,7 +10,10 @@ enter i to insert
 escape
 :wq enter
 
-#Reset
+#Reset to get one step back of commit
+git reset --hard head~1
 
+#get back reseted commit
+git reset --hard <removed file hashcode>
 
 
