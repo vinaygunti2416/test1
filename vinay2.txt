@@ -1,1 +1,16 @@
-vinay
+# adding and commiting same time
+git commit -a -m "coment"
+
+#to check log in single line
+git log --oneline
+
+#to add content with out opening file
+vi master.txt
+enter i to insert
+escape
+:wq enter
+
+#Reset
+
+
+
