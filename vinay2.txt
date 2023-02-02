@@ -21,5 +21,17 @@ git reset --hard head~1
 #get back reseted commit
 git reset --hard <removed file hashcode>
 
+#revert when using remort use revert insted of reset
+git revert <file hashcode>
+
+#git reset --shift pointers (like remove commit)
+#git revert --add additional commit that is opposite to commit.
+
+#git reset --soft <shal> those not touch the index file or the working tree at all (but resets the HEAD to <commit>  just like all modesdo.
+this leaves all your chaged files "changes to be commited " in status.
+
+# git reset --mixed<shel> reset the index 
+
+
 
 >>>>>>> 3b0a5f8edf1f9e2cf930b929f9b56b17e03fac19
