@@ -1,3 +1,25 @@
+<<<<<<< HEAD
 vinay
 changes done 1
 changes done 2
+=======
+# adding and commiting same time
+git commit -a -m "coment"
+
+#to check log in single line
+git log --oneline
+
+#to add content with out opening file
+vi master.txt
+enter i to insert
+escape
+:wq enter
+
+#Reset to get one step back of commit
+git reset --hard head~1
+
+#get back reseted commit
+git reset --hard <removed file hashcode>
+
+
+>>>>>>> 3b0a5f8edf1f9e2cf930b929f9b56b17e03fac19
