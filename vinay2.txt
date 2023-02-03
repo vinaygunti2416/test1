@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-vinay
-changes done 1
-changes done 2
-=======
+
 # adding and commiting same time
 git commit -a -m "coment"
 
@@ -34,4 +30,3 @@ this leaves all your chaged files "changes to be commited " in status.
 
 
 
->>>>>>> 3b0a5f8edf1f9e2cf930b929f9b56b17e03fac19
