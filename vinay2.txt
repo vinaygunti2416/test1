@@ -28,5 +28,22 @@ this leaves all your chaged files "changes to be commited " in status.
 
 # git reset --mixed<shel> reset the index 
 
+#git stash --- you don't want to make a commit of half done work but git stashing allows usge.generaly shash store safly in a hindden place git temp save your data without commit 
+commd--- git stash 
+----git stash list
+----git stash show
+----git stash apply stash@{0}(stash id)
+----git stash drop stash@{0}
+
+GIT stash pop---Git shash pop() allows the user to remove the changes from the stash and applyed them to your working file.
+The main diff b-w apply and pop is the stash pop delete the stash fro the stack after its apply but git apply doesn't delete the stash.
+
+commd---git stash pop
+
+git stash clear -- (deleting all the stashing at onec)
+
+git stash -m "added stash 2" (message)
+
+
 
 
