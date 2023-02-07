@@ -46,9 +46,15 @@ The main diff b-w apply and pop is the stash pop delete the stash fro the stack 
 
 #git tag : it is the highlighter which highlights some commits it dosent create another commit .
 
-#git tag <any name>
+#git tag <any name> it will add tags
 
 #git tag --list it will show how many tags are available
+
+#git push --tags : it will pusl tags to online repositry 
+
+#git tag --delete <ver name> : it will delte tag from local repo.
+
+#git push origin --delete <name >  : delete tag in online repo.
 
 
 
