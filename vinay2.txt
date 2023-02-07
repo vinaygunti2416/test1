@@ -35,14 +35,22 @@ commd--- git stash
 ----git stash apply stash@{0}(stash id)
 ----git stash drop stash@{0}
 
-GIT stash pop---Git shash pop() allows the user to remove the changes from the stash and applyed them to your working file.
+#git stash pop---Git shash pop() allows the user to remove the changes from the stash and applyed them to your working file.
 The main diff b-w apply and pop is the stash pop delete the stash fro the stack after its apply but git apply doesn't delete the stash.
 
-commd---git stash pop
+#commd---git stash pop
 
-git stash clear -- (deleting all the stashing at onec)
+#git stash clear -- (deleting all the stashing at onec)
 
-git stash -m "added stash 2" (message)
+#git stash -m "added stash 2" (message)
+
+#git tag : it is the highlighter which highlights some commits it dosent create another commit .
+
+#git tag <any name>
+
+#git tag --list it will show how many tags are available
+
+
 
 
 
