@@ -56,8 +56,11 @@ The main diff b-w apply and pop is the stash pop delete the stash fro the stack 
 
 #git push origin --delete <name >  : delete tag in online repo.
 
-#git rewrites : commits from one branch into another branch and its usefull alternative to marging because it gives us a cleaner 
+#git rebase :rewrites commits from one branch into another branch and its usefull alternative to marging because it gives us a cleaner 
 repository and can helpus troubleshoot a bug fatser.
+
+#rm -rf.git
+#git init
 
 
 
